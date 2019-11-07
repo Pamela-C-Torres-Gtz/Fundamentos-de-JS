@@ -12,7 +12,9 @@ Fundamentos de JavaScrip
 
 Este trabajo lo llevo acabo como una guia de reforzamiento para mi aprensidaje, el cual contiene definiciones técnicas y algunos ejercicios.
 
-El código de cada uno de los ejercicios se encuentra en este repocitorio en la **carperta** de **clases**, de igual manera las notas relevantes de cada tema se encuentran en la **carpeta** de **notas-clases** o puedes acceder a los links de este documento
+El código de cada uno de los ejercicios se encuentra en este repocitorio en la **carperta** de **clases**, de igual manera las notas relevantes de cada tema se encuentran en la **carpeta** de **notas-clases** o puedes acceder a los links de este documento.
+
+Los ejercicios se realizaron en **HTML5** (para que se pudiera visualizar en el navegador) y **JavaScript** (para visualizar la inter-actividad axilida de *inspector de elementos de Crhome*).
 
 ***
 
