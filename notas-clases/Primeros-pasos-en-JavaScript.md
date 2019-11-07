@@ -6,8 +6,8 @@
 
 - [Variables](#variables)
 - [Strings](#strings)
-- Números
-- Funciones
+- [Números](#números)
+- [Funciones](#funciones)
 - Alce de las Funciones
 - Objetos
 - Destructura de Objetos
@@ -81,4 +81,55 @@ Ejemplo de uso
 
 ![Ejemplo de atributos y Funciones](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase2-3.jpg)
 
+**Substring** es un método que devuelve un solo conjunto de un objeto.
+
+ejemplo de uso
+
+![Ejemplo de atributos y Funciones](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase2-4.jpg)
+
 ****
+
+## Números
+
+Los valores de tipo número, son pedazos de información númerica que se representa con el tipo ``number``.
+
+Esto incluye números positivos, negativos, enteros y decimales. De igualmanera tambíen utiliza operadores matemáticos como: *+*, *-*, *x* y */*.
+
+También podemos utilizar **Incremento** y **decremento** con este tipo de valores, los podemos representar de la siguiente mánera **+1** y **-1**.
+
+**Nota:** La cantidad a Incrementar o decrementar puede ser cualquier valor que nosotros necesitemos, no forsozamente tiene que ser *1*, aunque es el más común.
+
+****
+
+## Funciones
+
+**Definición:**
+
+Las funciones son pedazos de código reutilizables.  Se pueden *definir* e *invocar* cuando sea necesario.
+
+- Para **definir** un función se utiliza la palabra resevada *function*.
+- Se **delimita el cuerpo de la función** usando corchetes de llaves *{ }*.
+- Los **parámetros** de una función son variables que se le pasan a dicha función escribiendolos dentro de *( )*.
+- Para **llamar a la Función** solo colocamos fuera de las *{ }* el **El mismo nombre con el que la declaramos**.
+
+Ejemplo de uso:
+
+![Ejemplo Funciones](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase4.jpg)
+
+**Nota:** 
+El definir funciones adecuadamente, nos sirve para reutilizar el código de manera efectiva en futuras ocasiones.
+
+- Para que la función sea **re-utilizable** le tenemos que pasar los parametros que deseamos en la *defición de la función* y al *invocarla*.
+
+En este ejemplo se demustra como se puede re utilizar la función.
+
+![Ejemplo Funciones](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase4-2.jpg)
+
+
+### Observaciones
+
+**JavaScript** es un lenguaje devilmente tipado, esto quiere decir que intenta ejecutar el código, sin importar si los párametros que le pasemos a la función estén invertidos o incluso incompletos.
+
+Ejemplo
+
+![Ejemplo Funciones](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase4-3.jpg)
