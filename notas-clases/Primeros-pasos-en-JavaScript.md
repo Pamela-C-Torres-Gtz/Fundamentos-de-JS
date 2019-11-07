@@ -26,6 +26,6 @@ Una variable es un elemento que se emplea para almacenar y hacer referencia a un
 
 *Nosotros debemos de tener bien claro que tipo de dato es que vamos a utilizar al momento de codear.*
 
-![Ejemplo de código](src\img\clase1.jpg)
+![Ejemplo de código](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase1.jpg)
 
 ## Strings
