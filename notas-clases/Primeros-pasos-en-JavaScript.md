@@ -8,7 +8,7 @@
 - [Strings](#strings)
 - [Números](#números)
 - [Funciones](#funciones)
-- Alce de las Funciones
+- [El alcance de las Funciones](#el-alcance-de-las-funciones)
 - Objetos
 - Destructura de Objetos
 - Parametros como referencia o como valor
@@ -133,3 +133,34 @@ En este ejemplo se demustra como se puede re utilizar la función.
 Ejemplo
 
 ![Ejemplo Funciones](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase4-3.jpg)
+
+*******
+
+## El alcance de las Funciones
+
+A lo que se refiere este apartado es que si una *variable no se encuentra definida* dentro del cuerpo de una función se le considera como **una variable global**.  
+
+Ejemplo de variable global
+
+![Ejemplo variable global](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase5.jpg)
+
+Eso significa que se puede acceder desde cualcuer función. También significa que la variable *se le asigna al objeto global*, y este objeto global va a depender de donde estemos usando *JavaScript*, por ejemplo:
+
+  - Se puede ejecutar en un servidor mediente el entorno de *Node.js*.
+
+  - Se puede ejecutar en el navegador mediante el objeto global *window*
+
+Ejemplo
+
+![Ejemplo objeto global](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase5-2.jpg)
+
+Pero en caso contrario, *una variable definida* dentro del cuerpo de una función es una **variable local.**
+
+ 
+**Nota:** en *JavaScript* se puede utilizar el mismo nombre para una variable global  y para el parámetro de una función con un alcance local.
+
+Ejemplo
+
+![Ejemplo objeto global](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase5-3.jpg)
+
+******
