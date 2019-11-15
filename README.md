@@ -1,4 +1,4 @@
-Fundamentos de JavaScrip
+Fundamentos de JavaScript
 ============================
 
 
