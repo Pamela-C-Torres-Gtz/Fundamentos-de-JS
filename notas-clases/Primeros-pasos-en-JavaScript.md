@@ -16,7 +16,7 @@
 
 ******
 
-#### Cada uno de los puntos cunta con una breve descripción e imagen del ejercicio, estos se pueden ver con el Inspector de la consola de Crhome.
+#### Cada uno de los puntos cuenta con una breve descripción e imagen del ejercicio, estos se pueden ver con el Inspector de la consola de Crhome.
 
 *****
 
