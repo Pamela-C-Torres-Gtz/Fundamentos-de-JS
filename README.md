@@ -10,7 +10,7 @@ Fundamentos de JavaScrip
 
 ## 1. Descripción
 
-Este trabajo lo llevo acabo como una guia de reforzamiento para mi aprensidaje, el cual contiene definiciones técnicas y algunos ejercicios.
+Este trabajo lo llevo acabo como una guía de reforzamiento para mi aprensidaje, el cual contiene definiciones técnicas y algunos ejercicios.
 
 El código de cada uno de los ejercicios se encuentra en este repocitorio en la **carperta** de **clases**, de igual manera las notas relevantes de cada tema se encuentran en la **carpeta** de **notas-clases** o puedes acceder a los links de este documento.
 

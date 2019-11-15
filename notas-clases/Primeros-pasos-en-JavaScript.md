@@ -39,9 +39,9 @@ Una variable es un elemento que se emplea para almacenar y hacer referencia a un
 
 **Definición:**
 
-Los strings son una cadena de texto para indicar que estamos usando una cadena se texto *String*, devemos de colocar el valor dentro de **comillas dobles** *( " " )* ó **comillas simples** *( ' ' )*
+Los strings son una cadena de texto para indicar que estamos usando texto *String*, devemos de colocar el valor dentro de **comillas dobles** *( " " )* ó **comillas simples** *( ' ' )*
 
-* Para los ejercicio se utilizaran algunos *metodos* como:
+* Para los ejercicios utilice algunos *metodos* como:
 
    - **toUpperCase:** Nos sirve para trsnformat un String a *Mayúsculas*.
    - **toLowerCase:** Nos sirve para transformar un String a *Minúsculas.*
@@ -53,7 +53,7 @@ Los strings son una cadena de texto para indicar que estamos usando una cadena s
 
   ![Ejemplo de Uso de Métodos](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase2.jpg)
 
-* También se utilizan los atributos:
+* También utilice el atributo:
 
    - **length** que nos indica la cantidad de *carácteres* que tiene un String.
 
@@ -63,6 +63,7 @@ Los strings son una cadena de texto para indicar que estamos usando una cadena s
 * Para invocar *(Llamar)* una función se usa **( )**
 
 **Nota:**
+
 **charArt( ):** Nos sirve para posionarnos en un caracter de algún String.
 
 **Parametro:** Se usa para mandar llamar valores a una *Función*.
@@ -75,7 +76,7 @@ Ejemplo de uso:
 
 ![Ejemplo de Uso de Métodos](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase2-2.jpg)
 
-**Interpolación de texto** Son literales de Texto que habilidan el uso de *expresiones incrustadas*.  Se utilizan para cadenas de texto *(String)* de más de una línea con el siguiente caracter  de comillas invertidas seguido del signo de pesos y corchetes **` $ { } `**.
+**Interpolación de texto** Son literales de Texto que habilitan el uso de *expresiones incrustadas*.  Se utilizan para cadenas de texto *(String)* de más de una línea con el siguiente caracter  de comillas invertidas seguido del signo de pesos y corchetes **` $ { } `**.
 
 Ejemplo de uso 
 
@@ -83,7 +84,7 @@ Ejemplo de uso
 
 **Substring** es un método que devuelve un solo conjunto de un objeto.
 
-ejemplo de uso
+Ejemplo de uso
 
 ![Ejemplo de atributos y Funciones](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase2-4.jpg)
 
@@ -143,6 +144,7 @@ A lo que se refiere este apartado es que si una *variable no se encuentra defini
 Ejemplo de variable global
 
 ![Ejemplo variable global](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase5.jpg)
+
 
 Eso significa que se puede acceder desde cualcuer función. También significa que la variable *se le asigna al objeto global*, y este objeto global va a depender de donde estemos usando *JavaScript*, por ejemplo:
 
