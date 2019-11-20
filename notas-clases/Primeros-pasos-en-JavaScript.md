@@ -9,9 +9,9 @@
 - [Números](#números)
 - [Funciones](#funciones)
 - [El alcance de las Funciones](#el-alcance-de-las-funciones)
-- Objetos
-- Destructura de Objetos
-- Parametros como referencia o como valor
+- [Objetos](#objetos)
+- [Desestructura de Objetos](#desestructura-de-objetos)
+- [Parametros como referencia o como valor](#parametros-como-referencia-o-como-valor)
 - Comparaciones en JavaScript
 
 ******
@@ -166,3 +166,27 @@ Ejemplo
 ![Ejemplo objeto global](https://github.com/Pamela-C-Torres-Gtz/Fundamentos-de-JS/blob/master/src/img/clase5-3.jpg)
 
 ******
+
+## Objetos
+
+**Definición:** Un *objeto* es una colección de propiedades y/o atributos. (reune caracteristicas que nos interesa saber)
+
+**Una pripiedad** es una *asociación* entre un nombre y un valor.
+
+**Un atributo** se componen  de un clave *(key)* y un valor *(Value)*, que se separan entre sí por dos puntos  *:*
+
+**Un valor de una propiedad** puede ser una función y pueden ser de tipoi string, n´´umero, booleano, etc.
+
+Los objetos se definen delimitados por llaves **{ }**.
+
+*********
+
+## Desestructura de Objetos
+
+La *Desestructa de objetos* n o es mas que otra forma de acceder a los atributos de los objetos.  Y se utiliza generalmente para no duplicar las variables al momento de untroducción una *key* como parametro.
+
+********
+
+## Parametros como referencia o como valor
+
+Cuando los objetos se pasan como una referencia, estos se modifican fuera de la función, para evitar esto en js podemos crear un objeto diferente.
