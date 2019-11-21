@@ -6,6 +6,7 @@ Fundamentos de JavaScript
 
 * [1. Descripción](#1-descripción)
 * [2. Primeros pasos en JavaScript](#1-primeros-pasos-en-javascript)
+* [3. Estructuras de Control y Funciones](#2-estructuras-de-control-y-funciones)
 
 
 ## 1. Descripción
@@ -31,3 +32,10 @@ Los ejercicios se realizaron en **HTML5** (para que se pudiera visualizar en el 
 - Comparaciones en JavaScript
 
 ***
+
+## 2. [Estructuras de Control y Funciones](notas-clases/Estructuras-de-Control-y-Funciones.md)
+
+- Condicionales
+- Funciones que retornan valores
+- Funciones flecha
+- Estructuras repetivas: for, while, do-while y switch

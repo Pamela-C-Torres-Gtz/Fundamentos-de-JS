@@ -12,7 +12,7 @@
 - [Objetos](#objetos)
 - [Desestructura de Objetos](#desestructura-de-objetos)
 - [Parametros como referencia o como valor](#parametros-como-referencia-o-como-valor)
-- Comparaciones en JavaScript
+- [Comparaciones en JavaScript](#comparaciones-en-javascript)
 
 ******
 
@@ -190,3 +190,28 @@ La *Desestructa de objetos* n o es mas que otra forma de acceder a los atributos
 ## Parametros como referencia o como valor
 
 Cuando los objetos se pasan como una referencia, estos se modifican fuera de la función, para evitar esto en js podemos crear un objeto diferente.
+
+ Esto lo podemos hacer colocando tres puntos antes del nombre. Ej …persona. (que es mi objeto del ejercicio)
+
+ *****
+ ## Comparaciones en JavaScript
+
+ Existen varias amaneras de comparar varibles y objetos dentro de js.
+
+ * 1. se le asigna a una variable un valor numerico y a otra un string. Para poder compararlos debemos agregar dos signos de igual **(==)**. Esto los convierte al mismo tipo de valor y permite que se puedan comparar.
+
+ * 2. Cuando se utiliza operaciones por buena practica es recomendable usar tres simbolos iguales **(===)**.  Esto permite que JS no iguale las variables que son de distito tipo, pero que si las compare.
+
+ Los tipos de datos más comunes (primitivos) son:
+
+1. Boolean
+2. Null
+3. Undefined
+4. Number
+5. String
+
+
+**Nota**
+Cuando comparamos objetos en js tanto con el  *(==)* o con el *(===)*. lo que hace JS es preguntar por la referencia a la variable que estamos usando.
+
+lo que se puede hacer es realizar un objeto literal desglozandolo y utilizando los **...** los tres puntos del ejemplo anterior.
