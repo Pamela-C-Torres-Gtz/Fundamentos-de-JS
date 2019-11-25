@@ -50,3 +50,9 @@ Las **"Arrow functions"** es una nomenclatura más corta para expresiones de fun
 
 **Nota:**
 Cuando se utiliza Arrow F_unctions no es necesario escribir las palabras reservadas *function*, *return* ni las llaves *{ }*.
+
+Las funciones anonimas se pueden asignar a variables que si tienen un nombre.
+
+Otra forma de escribir funciones es con Arrow function, cuando definimos variables que son fucniones de preferencia se colocan como constantes. Y se puede ahorrar la palabra *function* y se sustituye con **=>**.
+
+Con las Arrow functions cuando tenemos un solo parametro en la función se pueden oviar los parentesis, **( )**. Tambien si solo se va a *retornar* un solo valor JS nos permite quitar esa palabra reservada **return** y las llaves **{ }**, colocamos el resto de la función despues del signo de Arrow function **=>**.
