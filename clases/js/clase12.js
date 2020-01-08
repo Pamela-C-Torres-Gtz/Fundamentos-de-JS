@@ -7,7 +7,8 @@ let sacha = {
     cantante: true,
     dj: false,
     guitarrista: false,
-    drone: true
+    drone: true,
+    
 }
 
 let juan = {

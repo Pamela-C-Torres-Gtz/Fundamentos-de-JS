@@ -7,7 +7,8 @@
 - [Condicionales](#condicionales)
 - [Funciones que retornan valores](#funciones-que-retornan-valores)
 - [Funciones flecha "Arrow functions"](#funciones-flecha-"arrow-functions")
-- Estructuras repetivas: for, while, do-while y switch
+- ["Estructuras repetivas: for"](#estructuras-repetivas:-for)
+ - while, do-while y switch
 
 ******
 
@@ -56,3 +57,13 @@ Las funciones anonimas se pueden asignar a variables que si tienen un nombre.
 Otra forma de escribir funciones es con Arrow function, cuando definimos variables que son fucniones de preferencia se colocan como constantes. Y se puede ahorrar la palabra *function* y se sustituye con **=>**.
 
 Con las Arrow functions cuando tenemos un solo parametro en la función se pueden oviar los parentesis, **( )**. Tambien si solo se va a *retornar* un solo valor JS nos permite quitar esa palabra reservada **return** y las llaves **{ }**, colocamos el resto de la función despues del signo de Arrow function **=>**.
+
+# Estructuras repetivas: for
+
+El bucle for se utiliza para repetir una o más instrucciones un determinado número de veces.
+
+Para escribir la instruccion en for lo que tenemos que realizar es **for** seguido de *( )* y *{ }*.
+
+Entre las *{}* va el código que queremos qaue se repita.
+
+Entre *( )* va tener 3 partes, la parte **inicial**, la parte de la **condición** y la parte del **incremento**
