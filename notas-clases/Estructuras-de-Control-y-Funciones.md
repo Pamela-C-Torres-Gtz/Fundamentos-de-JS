@@ -7,8 +7,8 @@
 - [Condicionales](#condicionales)
 - [Funciones que retornan valores](#funciones-que-retornan-valores)
 - [Funciones flecha "Arrow functions"](#funciones-flecha-"arrow-functions")
-- ["Estructuras repetivas: for"](#estructuras-repetivas:-for)
-- ["Estructuras repetivas: while"](#estructuras-repetivas:-while)
+- [Estructuras repetivas: for](#estructuras-repetivas:-for)
+- [Estructuras repetivas: while](#estructuras-repetivas:-while)
 do-while y switch
 
 ******
@@ -137,7 +137,27 @@ Quedando así:
       ``if (realizaDeporte()) {``        
         ``adelgazar(pame)``       
      ``}``      
- s``}``    
+ ``}``    
  
+
+ En caso de querere contar por ejemplo días, meses, horas, etc, transcurridos declaramos nuestra variable y la llamas alfinal de nuestro *if*
+
+Es importante recordar que para poder ejecutar correctamente el While se deben declarar nuestras constanstes, variables y arrow function antes de las sentencia del while.
+
+Quedando así:
+
+``const INCREMENTO_PESO = 0.2;``      
+``const aumentoDePeso = persona => persona.peso += INCREMENTO_PESO;``  
+``const adelgazar = persona => persona.peso -= INCREMENTO_PESO;``    
+``const comeMucho = () => Math.random() < 0.3;``     
+``const realizaDeporte = () => Math.random() < 0.4;``    
+``const META = pame.peso - 3;``   
+``let dias = 0;``
+
+para revisar ejmemplo revisar clase 14.
+
+
+
 **Nota**
+
 En ocasiones nuestro código puede fallar por errores de syntaxis o errores lógicos. En caso de que quieras verificar tu código, debes utilizar un debugger. El código se detiene cada vez que lee esta palabra.
