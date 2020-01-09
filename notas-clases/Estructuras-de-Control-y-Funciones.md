@@ -64,6 +64,47 @@ El bucle for se utiliza para repetir una o más instrucciones un determinado nú
 
 Para escribir la instruccion en for lo que tenemos que realizar es **for** seguido de *( )* y *{ }*.
 
-Entre las *{}* va el código que queremos qaue se repita.
+Entre las *{}* va el código que queremos que se repita.
 
-Entre *( )* va tener 3 partes, la parte **inicial**, la parte de la **condición** y la parte del **incremento**
+Entre *( )* va tener 3 partes, la parte **inicial**, la parte de la **condición** y la parte del **incremento**, las siguientes instrucciones en una sóla línea:
+
+ Dentro del ciclo *for* se usa un **contador** para llevar la cuenta de cuantas veces se esta ejecuando o nuestro programa. Ese contador generalmente se llama **i**, que se encuentra en nuestra parte **inicial**, se inicializa en *1*, pero tambien se puede inicializar en *0*. Y al final cerramos con **;**.
+
+Lo primero será la variable que se inicializa es decir desde cuando queremos que empiece la instrucción **(let i=1)**, luego de esto irá punto y coma **;**
+
+Luego escribiremos hasta dónde queremos que se repita la instrucción (i<=365) luego de esto irá punto y coma ;
+
+Posterior a eso irá cuánto será el incremento con que se deba repetir ejemplo (i++, i=i+2,i=i+3)
+
+Quedando así: 
+
+``for (let i = 1; i <= 365; i++)``
+ 
+Dentro de las  llaves *{ }* creamos nuestra variable y despues del *=* usamos el operador matematico **Math**
+
+Quedando así:
+
+``let random = Math.random()``
+
+Despues realiazimas una condición, preguntando que este *randon* el 25% de las veces aumenta de peso, luedo podemos usar un **else** que ejecute solo un 50% de las veces en lugar del 75% restante.
+
+Es importante despues del **if** y el **else if** colocar la logica de aumento de peso o de aldegazar.
+
+Quedando así:
+
+``if (random < 0.25) {``
+     ``aumentoDePeso(pame)``
+  ``}else if (random < 0.5) {``
+    ``adelgazar(pame)``
+ `` }``
+
+  Para que esto se pueda ejecutar de manera adecuada creamos nuestras Arrow function y despues las mencionamos dentro de nuestro **condicional**.
+
+``const aumentoDePeso = persona => {
+    persona.peso += INCREMENTO_PESO
+}``
+
+
+``const adelgazar = persona => {
+    persona.peso -= INCREMENTO_PESO
+}``

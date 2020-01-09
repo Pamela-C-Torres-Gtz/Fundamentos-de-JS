@@ -17,6 +17,7 @@ const aumentoDePeso = persona => {
 const adelgazar = persona => {
     persona.peso -= INCREMENTO_PESO
 }
+
 for (let i = 1; i <= 365; i++) {
   let random = Math.random()
   
