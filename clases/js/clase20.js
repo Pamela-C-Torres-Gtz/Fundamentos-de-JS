@@ -57,3 +57,6 @@ const reducer = (acum, persona) => {
 let totalDeLibros = personas.reduce(reducer, 0)
 
 console.log(`El total de libros de todos es ${totalDeLibros} libros`)
+
+
+

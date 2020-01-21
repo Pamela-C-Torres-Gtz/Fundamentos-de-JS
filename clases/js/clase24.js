@@ -24,7 +24,7 @@ Persona.prototype.saludar = function () {
 }
 //5.-
 Persona.prototype.soyAlto = function () {
-    debugger
+    //debugger
     return this.altura > 1.8
 }
 
@@ -34,7 +34,8 @@ Persona.prototype.soyAlto = function () {
     this.apellido = apellido
  }
 
-//9.-
+//9.- los mecanismos de herencia se tiene  que llmar inmediatamente
+//despues de poner la función para que funcione correctamente, para que herede correctamente.
 heredaDe(Desarrollador, Persona)
 
  //7.-
